@@ -1,6 +1,6 @@
 # NuxtJs + Typescript
 
-> NuxtJs + Typescript Qucik Setup Template
+> NuxtJs + Typescript Quick Setup Template
 
 ## Build Setup
 
