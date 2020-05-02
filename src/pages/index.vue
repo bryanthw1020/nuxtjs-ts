@@ -47,21 +47,14 @@
             Nuxt GitHub
           </a>
         </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire">
-            Continue
-          </v-btn>
-        </v-card-actions>
       </v-card>
     </v-flex>
   </v-layout>
 </template>
 
-<script>
-export default {
-  components: {
-    //
-  }
-}
+<script lang="ts">
+import { Vue, Component } from 'nuxt-property-decorator'
+
+@Component
+export default class PageIndex extends Vue {}
 </script>
